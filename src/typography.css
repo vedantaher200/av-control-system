@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.app-shell,
+.app-shell * {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  letter-spacing: normal;
+}
+
+.app-shell .page-heading h1 {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif !important;
+  font-weight: 700 !important;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.app-shell .section-title h2,
+.app-shell .profile-summary-copy h2,
+.app-shell .modal h2,
+.app-shell .brand strong,
+.app-shell .summary-card strong {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif !important;
+}
+
+.app-shell .section-title h2,
+.app-shell .profile-summary-copy h2,
+.app-shell .brand strong {
+  font-weight: 600 !important;
+}
+
+.app-shell .summary-card strong {
+  font-weight: 700 !important;
+}
+
+.app-shell .nav-item,
+.app-shell .profile strong,
+.app-shell .quick-card strong,
+.app-shell .toggle-button,
+.app-shell .primary-button,
+.app-shell .secondary-button,
+.app-shell .small-action {
+  font-weight: 500;
+}
+
+.app-shell .nav-item.active,
+.app-shell .quick-card strong {
+  font-weight: 600;
+}
